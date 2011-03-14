@@ -16,6 +16,28 @@ ul {
 	padding-left: 20px;
 }
 
+.twocolumn {
+	position: relative;
+	height: 130px;
+	margin-right: 60px;
+}
+
+.leftcolumn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	margin: 0;
+}
+
+.rightcolumn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px
+	margin: 0;
+}
+
 ul.nobullet {
 	padding-left: 0px;
 	list-style-type: none;
